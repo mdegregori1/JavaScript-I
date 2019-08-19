@@ -65,10 +65,19 @@ console.log(CompanyList5.gender);
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
-
+const kennan = {
+  speak: "Hello, my name is Kennan!",
+};
+console.log(kennan.speak);
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
-
+const antonietta = {
+  multiplyNums: (num1,num2) => {
+    return num1*num2;
+  }
+  
+};
+console.log(antonietta.multiplyNums(3,4));
 // === Great work! === Head over to the the arrays.js. You may come back and attempt the Stretch Challenge once you have completed the challenges in arrays.js and function-conversion.js.
 
 // ==== Stretch Challenge: Nested Objects and the this keyword ==== 
